@@ -1,0 +1,30 @@
+.card{
+    /* display: flex; */
+    width: 200px;
+    height: 100px;
+    /* justify-content: space-evenly; */
+    border-radius: 10px;
+
+}
+.card .icon{
+    font-size: 40px;
+width: fit-content;
+height: fit-content;
+}
+.contents h2{
+    font-weight: 500;
+}
+
+/* attribute directive ngClass */
+.orange{
+    background-color: orange;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}

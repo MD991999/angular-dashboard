@@ -1,0 +1,47 @@
+.profile img{
+width:60%;
+height: 120px;
+border-radius: 50%;
+object-fit: cover;
+/* margin-left: 20px; */
+object-position: center;
+}
+.profile{
+    text-align: center;
+}
+mat-list h3{
+    font-size: medium;
+    padding-left: 10px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+div h2{
+    margin-bottom: 0;
+}
+div h4{
+    margin-top: 0;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+
+}
+.pages a{
+    text-decoration: none;
+    color:cadetblue;
+    /* margin-left: 10px; */
+/* margin-bottom: 10px; */
+/* margin-right: 10px; */
+height: 30px;
+padding-top: 15px;
+padding-left: 5px;
+}
+.pages a:hover{
+    background-color: rgb(183, 173, 160);
+    color: black;
+}
+a mat-icon{
+    vertical-align:middle;
+    margin-right: 15px;
+}

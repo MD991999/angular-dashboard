@@ -1,0 +1,20 @@
+<!-- header -->
+<app-header (ontoggle)="ontoggle()"></app-header>
+
+<mat-drawer-container class="example-container">
+    <mat-drawer mode="side" [opened]="isopened">
+        <!-- sidebar -->
+        <app-aside></app-aside>
+    </mat-drawer>
+    <mat-drawer-content>
+
+        <!-- dashboard -->
+        <!-- <app-dashboard></app-dashboard> -->
+<!-- to navigate from one page to other as the iuser request -->
+        <router-outlet></router-outlet>
+        <!-- we replaced the app-dashboard tag with routeroutlet because we need to navigate from one pge to the other as the user request.So to do that we need router-outlet -->
+    </mat-drawer-content>
+</mat-drawer-container>
+
+<!-- footer -->
+<app-footer></app-footer>

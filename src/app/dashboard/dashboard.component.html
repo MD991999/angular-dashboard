@@ -1,0 +1,56 @@
+<!-- card row-->
+<!-- selector of card component -->
+<div  fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px">
+    <!-- card 1 -->
+    <mat-card >
+        <app-card 
+        bg="orange"
+        icon="person"
+        desc="Students"
+        total="5000"
+        ></app-card>
+    </mat-card>
+    <!-- card 2 -->
+    <mat-card>
+        <app-card
+        bg="green"
+        icon="home"
+        desc="Institution"
+        total="40"
+        ></app-card>
+    </mat-card>
+    <!-- card 3 -->
+    <mat-card>
+        <app-card
+        bg="red"
+        icon="dashboard"
+        desc="Dashboard"
+        total="500"
+        ></app-card>
+    </mat-card>
+    <!-- card 4 -->
+    <mat-card>
+        <app-card
+        bg="blue"
+        icon="group"
+        desc="Employees"
+        total="7000"
+        ></app-card>
+    </mat-card>
+</div>
+
+<!-- line chart -->
+<div class="chart">
+    <app-area-chart></app-area-chart>
+</div>
+<!-- table and pie-chart too-->
+<div class="tablediv"fxLayout="row" fxLayoutAlign="space-between center" fxLayoutGap="20px">
+    <!-- table -design -->
+    <div fxFlex="60">
+        <app-table></app-table>
+    </div>
+    <!-- pie chart -->
+    <div fxFlex="40">
+        <app-pie-chart></app-pie-chart>
+    </div>
+</div>
